@@ -15,5 +15,5 @@ NOTES:
 int sum(int a, int b)
 {
 	return a + b;
-	return 0;
+	//return 0;
 }

@@ -13,5 +13,10 @@ NOTES:
 
 void swap(int *a, int *b)
 {
-	
+	if (a > 0 && b > 0){
+		int c = *a;
+		*a = *b;
+		*b = c;
+	}
+		
 }
